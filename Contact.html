@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./res/GoMyCodeIcon.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-default custom-nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./Home.html"><img id="logo" src="./res/GoMyCodeIcon.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Courses.html">Courses</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <center>
+        <form id="contactForm">
+            <div class="bg-img">
+                <img src="./res/contact.jpg" alt="Web Dev" style="display: block; margin: 0 auto; width: 100%; height: 700px;">
+                <h1><b>CONTACT</b></h1>
+            </div>
+            <label style="color: white;margin: 7px 0;">Name</label>
+            <br>
+            <input id="nameInput" type="text" placeholder="Your Name" style="width: 250px; height: 30px; text-align: center;">
+            <br>
+            <label style="color: white;margin: 7px 0;">Track</label>
+            <br>
+            <select id="trackInput" style="width: 250px; height: 30px; text-align-last: center;">
+                <option value="Web">Web</option>
+                <option value="Artificial Intelligence">AI</option>
+                <option value="Game">Game</option>
+            </select>
+            <br>
+            <label style="color: white;margin: 7px 0;">Email Address</label>
+            <br>
+            <input id="mailInput" type="email" placeholder="Email@example.com" style="width: 250px; height: 30px; text-align: center;">
+            <br>
+            <label style="color: white;margin: 7px 0;">Phone Number</label>
+            <br>
+            <input id="numberInput" type="number" placeholder="Your Number" style="width: 250px; height: 30px; text-align: center;">
+            <br>
+            <input type="submit" value="Submit" style="width: 100px; height: 30px; margin: 20px 0; text-align: center;">
+        </form>
+
+    </center>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
